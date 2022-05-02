@@ -47,16 +47,6 @@ function App() {
   const [loginForm, setLoginForm] = React.useState(true);
   return (
     <>
-      {/* <div
-       className="fullBackground"
-       style={{
-         backgroundImage: `url(${
-           process.env.PUBLIC_URL + "images/map_background.png"
-         })`,
-         height: "100vh",
-       }}
-     >
-       */}
       <Image
         src="images/map_background.png"
         className="img-fluid "

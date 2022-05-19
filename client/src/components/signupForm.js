@@ -27,7 +27,7 @@ function signupForm() {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="signupFormConfirmPassword">
-          <Form.Label>Password</Form.Label>
+          <Form.Label>Confirm Password</Form.Label>
           <Form.Control type="password" placeholder="Confirm Password" />
         </Form.Group>
         <Button variant="custom" type="submit">

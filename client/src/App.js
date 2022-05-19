@@ -37,8 +37,8 @@ function App() {
       padding: "5em",
     },
     image: {
-      marginTop: "2em",
-      marginBottom: "10em",
+      marginTop: "0.5em",
+      marginBottom: "4em",
       width: "100%",
     },
   };
@@ -50,7 +50,7 @@ function App() {
       <Image
         src="images/map_background.png"
         className="img-fluid "
-        style={{ minHeight: "100vh", zIndex: "-1", position: "absolute" }}
+        style={{ height: "100vh", width: "100vw", zIndex: "-1", position: "absolute" }}
       />
       <Container fluid>
         <Row>

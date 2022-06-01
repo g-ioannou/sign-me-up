@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from models import User,Admin,SimpleUser,Store,Purchase,Event,Review
+from .models import User,Admin,SimpleUser,Store,Purchase,Event,Review
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:

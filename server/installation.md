@@ -26,3 +26,7 @@ Gia na treksei o django server se localhost (antistoixa me ton express server) t
 ```
 python3 manage.py runserver 
 ```
+
+o server trexei sto localhost:8000
+
+to API vrisketai sto localhost:8000/api
